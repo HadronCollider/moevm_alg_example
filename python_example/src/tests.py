@@ -1,4 +1,4 @@
-from src.submodule import concat_function
+from modules.submodule import concat_function
 
 
 def test_concat_function():

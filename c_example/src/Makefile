@@ -7,8 +7,8 @@ tests: *.o
 	g++ tests.o submodule.o -o tests
 
 *.o:
-	g++ -c src/*.cpp -Isrc
-	g++ -c *.cpp -Isrc
+	g++ -c modules/*.cpp -Imodules
+	g++ -c *.cpp -Imodules
 
 clean:
 	rm -f *.o
